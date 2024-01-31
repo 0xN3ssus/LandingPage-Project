@@ -1,0 +1,39 @@
+body {
+  background-image: url(wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  color: white;
+  margin: 80px;
+  border: 2px solid #DDD ;
+width: max-content;
+height: max-content;
+border-radius: 35px;
+padding: 60px;
+
+}
+
+h1 {
+  font-size: 50px;
+}
+
+label {
+  font-size: 22px;
+}
+input {
+  border-radius: 20px;
+  width: 300px;
+  height: 30px;
+  display: inline-block;
+}
+
+#submit {
+  margin: 28px;
+  width: 300px;
+  height: 60px;
+padding: -10px;
+margin: 4px;
+}
+
