@@ -18,14 +18,11 @@ function storeData() {
     password: password
   };
 
-  // Perform any additional logic or validation as needed
 
-  // Store data (you can use localStorage, send to a server, etc.)
+  // Store data
   localStorage.setItem('userData', JSON.stringify(userData));
 
-  // Optionally, you can redirect the user or perform other actions after registration
-
-  // alert("Registration successful!");
+  // alert("Registration successful!");;;;;;w
 
   // Redirect to login.html
   window.location.href = 'login.html';
