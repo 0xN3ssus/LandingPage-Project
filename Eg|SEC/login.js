@@ -6,14 +6,14 @@ function checkLogin() {
   // Retrieve stored user data
   var storedUserData = localStorage.getItem('userData');
 
-  // Check if stored user data exists
+  // Check if stored user data iS exists
   if (storedUserData) {
-    // Parse stored user data
+    // parse stored user data
     var userData = JSON.parse(storedUserData);
 
     // Check if input credentials match stored data
     if (loginUsername === userData.username && loginPassword === userData.password) {
-      // Redirect to dashboard.html with username parameter
+      // Redirect to dashboard.html with username param
       window.location.href = 'dashboard.html?username=' + encodeURIComponent(userData.username);
     } else {
       alert('Invalid username or password');
